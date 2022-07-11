@@ -1,0 +1,19 @@
+.ways {
+  display: grid;
+  grid-template-columns: 80% 30%;
+  gap: 5%;
+  padding: 4rem 0;
+}
+
+.ways__details {
+  display: flex;
+  /* padding-right: 2rem; */
+}
+.ways__details p {
+  padding: 1.5rem 0 0 0.7rem;
+}
+@media screen and (max-width: 1024px) {
+  .ways {
+    grid-template-columns: 1fr;
+  }
+}

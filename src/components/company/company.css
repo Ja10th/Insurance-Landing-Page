@@ -1,0 +1,13 @@
+.company {
+  padding: 4rem 4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: -7.5rem;
+}
+@media screen and (max-width: 600px) {
+  .company {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10rem 0 0 0;
+  }
+}

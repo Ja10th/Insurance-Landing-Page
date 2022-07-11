@@ -1,0 +1,40 @@
+footer {
+  background: #050d4e;
+  text-align: center;
+}
+footer .navbar-brand {
+  color: white;
+  padding: 2rem 0 0 0;
+}
+footer p {
+  color: #c2bdbd;
+  padding: 0 20rem;
+  margin: 1.4rem 0;
+}
+footer ul {
+  display: Flex;
+  text-align: center;
+  justify-content: center;
+}
+footer ul p {
+  padding: 0 1rem;
+  color: var(--white);
+}
+@media screen and (max-width: 1024px) {
+  footer p {
+    color: #c2bdbd;
+    padding: 0 10rem;
+    margin: 1.4rem 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer p {
+    color: #c2bdbd;
+    padding: 0 3rem;
+    margin: 1.4rem 0;
+  }
+  footer ul p {
+    padding: 0 0.3rem;
+    color: var(--white);
+  }
+}
